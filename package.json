@@ -1,0 +1,30 @@
+{
+  "name": "projeto-job-fine",
+  "version": "1.0.0",
+  "description": "Esse sistema é um portal para programadores encontrarem vagas",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "job",
+    "dev",
+    "oportuniy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "globals": "^15.12.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}
